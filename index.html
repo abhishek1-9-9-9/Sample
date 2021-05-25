@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Dashboard</title>
+        
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        
+        <script src="js/google%20chart.js" type="text/javascript"></script>
+        
+        <script src="js/chart.js" type="text/javascript"></script>
+        
+        <script src="js/core.js"></script>
+        
+        <script src="js/charts.js"></script>
+        
+        <script src="js/animated.js"></script> 
+        
+        <script src="js/skill.js" type="text/javascript"></script>
+        
+        <script src="js/ring.js"></script>
+        
+        <script src="js/easy%20pie%20chart.js"></script>
+        
+        <script src="js/jQuery.js" type="text/javascript"></script>
+        
+        <link href="css/circular%20progress.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <nav id="head">
+            <img src="icons/logo.png">
+            
+            <ul>
+                <li><img src="icons/outline_favorite_border_black_48dp.png" class="image"></li>
+                <input type="checkbox" id="noti">
+                <label for="noti">
+                    <li><img src="icons/outline_notifications_black_48dp.png" class="image"></li>
+                </label>
+                
+                <div class="notification">
+                    <div class="close">
+                       <label for="noti">
+                            <img src="icons/outline_close_black_48dp.png" height="30px">
+                        </label>
+                    </div>
+                    
+                    <div class="headline">
+                        <a>Notifications</a>
+                        <a>Team Activity</a>
+                    </div>
+                    <hr />
+                    <div class="message">
+                        <div class="date">
+                            <p>Today</p>
+                        </div>
+                        
+                        <div class="info">
+                            <div class="image">
+                                <img src="icons/contact/eh.png">
+                            </div>
+                            <div class="detail">
+                                <spam><b>Elsa Hoffman</b> removed you from <b>Web Dolfin</b></spam>
+                            </div>
+                        </div>
+                        
+                        <div class="info">
+                            <div class="image">
+                                <img src="icons/contact/ml.png">
+                            </div>
+                            <div class="detail">
+                                <spam><b>Mia Langford</b> has invited you to the project <b>Untitled</b></spam>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr />
+                    
+                    <div class="message">
+                        <div class="date">
+                            <p>Yesterday</p>
+                        </div>
+                        
+                        <div class="info">
+                            <div class="image">
+                                <img src="icons/contact/np.png">
+                            </div>
+                            <div class="detail">
+                                <spam><b>Nadya Poplovetsc</b> accepted your invitation the project <b>Untitled 2</b></spam>
+                            </div>
+                        </div>
+                        
+                        <div class="info">
+                            <div class="image">
+                                <img src="icons/contact/kk.png">
+                            </div>
+                            <div class="detail">
+                                <spam><b>Konstantine Konstantinovich</b> removed you from <b>Mobile Dolfin</b></spam>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <hr />
+                    
+                    <div class="message">
+                        <div class="date">
+                            <p>Mon, 24 May 21</p>
+                        </div>
+                        
+                        <div class="info">
+                            <div class="image">
+                                <img src="icons/contact/mc.png">
+                            </div>
+                            <div class="detail">
+                                <spam><b>Margo Corn</b> accepted your invitation the project <b>Untitled 2</b></spam>
+                            </div>
+                        </div>
+                        
+                        <div class="info">
+                            <div class="image">
+                                <img src="icons/contact/md.png">
+                            </div>
+                            <div class="detail">
+                                <spam><b>Magda Davis</b> accepted your invitation the project <b>Mobile Dolfin</b></spam>
+                            </div>
+                        </div>
+                        
+                        <div class="info">
+                            <div class="image">
+                                <img src="icons/contact/sb.png">
+                            </div>
+                            <div class="detail">
+                                <spam><b>Sasha Baker</b> invited you in the project <b>Cypher</b></spam>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="button">
+                        <button>See More</button>
+                    </div>
+                    
+                </div>
+                <li id="user"><span>James Miller <img src="icons/outline_face_black_48dp.png"></span></li>
+                
+            </ul>
+        </nav>
+        
+        
+        <div class="col_1">
+            <nav id="ver">
+               <div class="nav">
+
+                    <input type="checkbox" id="check">
+                    <label for="check" class="checkbtn">
+                       <a><img src="icons/outline_school_black_48dp.png"></a>
+                    </label>
+
+                        <div class="subnav">
+                            <a><img src="icons/outline_work_outline_black_48dp.png"> Tutoring</a>
+                            <a href="course.html"><img src="icons/outline_menu_book_black_48dp.png"> My Course</a>
+                            <a><img src="icons/outline_school_black_48dp.png"> My School</a>
+                            <a><img src="icons/outline_menu_book_black_48dp.png"> Tests</a>
+                            <hr />
+                            <a><img src="icons/outline_edit_black_48dp.png"> Notes</a>
+                            <a><img src="icons/outline_bookmark_border_black_48dp.png"> Bookmarks</a>
+                            <a><img src="icons/outline_settings_black_48dp.png"> Settings</a>
+                        </div>
+
+                        <a><img src="icons/outline_chat_black_48dp.png"></a>
+                        <a><img src="icons/outline_star_border_black_48dp.png"></a>
+                        <a><img src="icons/outline_bolt_black_48dp.png"></a>
+
+                </div>
+
+            </nav>
+            
+            <div class="ad">
+                <div class="adcard">
+                    <p>Download our mobile app</p>
+                    <p class="link">intelymobile.com <img src="icons/outline_south_east_white_48dp.png"></p>
+                </div>
+                <p>Advertisment Here</p>
+            </div>
+            
+            <div class="invite">
+                
+                <img src="icons/invite.png">
+                <h3>Invite Friends</h3>
+                <p>Get Free Months of Premium</p>
+                <button>Get the link</button>
+                
+            </div>
+            
+        </div>
+        <div class="col_2">
+            <div class="container_1">
+                <h1>Hi champion!</h1>
+                
+                <table id="maintable">
+                   <tr>
+                       <td>
+                           <div class="container_3">
+                               <p><b>Upcoming lessons</b></p>
+
+                            <div class="card">
+                               <div class="content">
+                                   <p><b>Jan 10</b><br />4:00PM</p>
+                                   <p>Tutoring Algebra<br /><span>Kiersten Lange</span></p>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="card">
+                               <div class="content">
+                                   <p><b>Jan 10</b></p>
+                                   <p>School Homework<br /><span>Global History / Analysis</p>
+                                </div>
+                            </div>
+                            <br />
+                            <div class="card">
+                               <div class="content">
+                                   <p><b>Jan 11</b><br />5:00PM</p>
+                                   <p>Tutoring French Language<br /><span>Pierre Hackett</span></p>
+                                </div>
+                            </div>
+                           </div>
+                       </td>
+                       
+                       <td>
+                           <div class="container_2">
+                               <h4>Leaderboard</h4>
+                               <div class="subtable">
+                                   <table id="subtable_1">
+                                       <tr>
+                                           <th class="center">Rank</th>
+                                           <th>Name</th>
+                                           <th class="center">Best Score</th>
+                                           <th class="center">Points</th>
+                                       </tr>
+                                       
+                                       <tr>
+                                           <td class="center">1 <img src="icons/green.png" class="green"></td>
+                                           <td>Patrick Alvos Devano</td>
+                                           <td class="center">98</td>
+                                           <td class="center">2324</td>
+                                       </tr>
+                                       
+                                       <tr>
+                                           <td class="center">2 <img src="icons/gery.png"></td>
+                                           <td>Jeniffer Hudson</td>
+                                           <td class="center">96</td>
+                                           <td class="center">2310</td>
+                                       </tr>
+                                       
+                                       <tr>
+                                           <td class="center">3 <img src="icons/red.png" class="red"></td>
+                                           <td>Stevia Rownders</td>
+                                           <td class="center">97</td>
+                                           <td class="center">2305</td>
+                                       </tr>
+                                       
+                                       <tr>
+                                           <td class="center">4 <img src="icons/gery.png"></td>
+                                           <td>Sam Anderson</td>
+                                           <td class="center">89</td>
+                                           <td class="center">2119</td>
+                                       </tr>
+                                       
+                                       <tr>
+                                           <td class="center">16 <img src="icons/green.png" class="green"></td>
+                                           <td>Jorge Rodriguez</td>
+                                           <td class="center">82</td>
+                                           <td class="center">1998</td>
+                                       </tr>
+                                   </table>
+                               </div>
+                           </div>
+                           
+                       </td>
+                       
+                       <td>
+                           <div class="calendar">
+                               
+                               <div class="month">
+                
+                                  <h4><span class="prev">&#10094;</span>&emsp; May 2021 &emsp;<span class="next">&#10095;</span></h4> 
+                                   
+                               </div>
+                               
+                               <div class="weekdays">
+                                   <table id="subtable_2">
+                                       <tr class="weekhead">
+                                           <th> S</th>
+                                           <th> M</th>
+                                           <th> T</th>
+                                           <th> W</th>
+                                           <th> T</th>
+                                           <th> F</th>
+                                           <th> S</th>
+                                       </tr>
+                                       
+                                       <tr>
+                                           <td class="old">25</td>
+                                           <td class="old">26</td>
+                                           <td class="old">27</td>
+                                           <td class="old">28</td>
+                                           <td class="old">29</td>
+                                           <td class="old">30</td>
+                                           <td>1</td>
+                                       </tr>
+                                       
+                                       <tr>
+                                           <td>2</td>
+                                           <td>3</td>
+                                           <td>4</td>
+                                           <td>5</td>
+                                           <td>6</td>
+                                           <td>7</td>
+                                           <td>8</td>
+                                       </tr>
+                                       
+                                       <tr>
+                                           <td>9</td>
+                                           <td>10</td>
+                                           <td>11</td>
+                                           <td>12</td>
+                                           <td>13</td>
+                                           <td>14</td>
+                                           <td>15</td>
+                                       </tr>
+                                       
+                                       <tr>
+                                           <td>16</td>
+                                           <td>17</td>
+                                           <td>18</td>
+                                           <td>19</td>
+                                           <td>20</td>
+                                           <td>21</td>
+                                           <td>22</td>
+                                       </tr>
+                                       
+                                       <tr>
+                                           <td>23</td>
+                                           <td>24</td>
+                                           <td>25</td>
+                                           <td class="active" style="background-color: darkgreen">26</td>
+                                           <td>27</td>
+                                           <td>28</td>
+                                           <td>29</td>
+                                       </tr>
+                                       
+                                       <tr>
+                                           <td>30</td>
+                                           <td>31</td>
+                                           <td class="old">1</td>
+                                           <td class="old">2</td>
+                                           <td class="old">3</td>
+                                           <td class="old">4</td>
+                                           <td class="old">5</td>
+                                       </tr>
+                                   </table>
+                               </div>
+                               
+                           </div>
+                       </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>
+                           <div class="spent">
+                                <div id="chart_div"></div>
+                            </div>
+                        </td>
+                        
+                        <td>
+                           <a href="course.html">
+                            <div class="course">
+                               <div class="heading">
+                                <h3>Your Courses <abbr title="Premium Membership Batch"> <img src="icons/outline_workspace_premium_black_48dp.png" alt="premium membership batch" height="20px"> </abbr> </h3>
+                                
+                                <div class="details">
+                                    <img src="icons/outline_bookmark_border_black_48dp.png" height="20px">
+                                    <img src="icons/outline_search_black_48dp.png" height="20px">
+                                </div>
+                                </div>
+                                <div class="all_card">
+                                <div class="card">
+                                    <div class="con">
+                                       <div class="line">
+                                        <img src="icons/art%20&%20design.jpg" height="50px">
+                                        &ensp;
+                                        <p><b class="beg">BEGINNER</b><br />History</p>
+                                        </div>
+                                        <p>by Tianna Fuller</p>
+                                        <hr />
+                                        <div class="line">
+                                            <label for="art">68% </label>
+                                            &emsp;
+                                            <progress id="art" value="68" max="100"></progress>
+                                            &emsp;
+                                            <label>68<span>/100</span></label>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div class="card">
+                                    <div class="con">
+                                       <div class="line">
+                                        <img src="icons/daily.png" height="50px">
+                                        &ensp;
+                                        <p><b class="adv">ADVANCED</b><br />Mathematics</p>
+                                        </div>
+                                        <p>by Emma Mclain</p>
+                                        <hr />
+                                        <div class="line">
+                                            <label for="art">30% </label>
+                                            &emsp;
+                                            <progress id="art" value="30" max="100"></progress>
+                                            &emsp;
+                                            <label>3<span>/10</span></label>
+                                            
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                                </div>
+                            </div>
+                            </a>
+                        </td>
+                        
+                        <td>
+                            <div class="homework">
+                                <h2>Homework Progress</h2>
+                                
+                                <div class="all_card">
+                                    
+                                    <div class="card">
+                                        <p><b>Biology</b><br /><span>September, 7 Monday</span></p>
+                                        <div class="right">
+                                            &gt;
+                                        </div>
+                                        <label for="bio">25%</label>
+                                        
+                                        <progress id="bio" value="25" max="100"></progress>
+                                        
+                                    </div>
+                                    
+                                    <div class="card">
+                                        <p><b>Physics</b><br /><span>September, 7 Monday</span></p>
+                                        <div class="right">
+                                            &gt;
+                                        </div>
+                                        <label for="phy">58%</label>
+                                        
+                                        <progress id="phy" value="58" max="100"></progress>
+                                        
+                                    </div>
+                                    
+                                    <div class="card">
+                                        <p><b>Chemistry</b><br /><span>September, 8 Tuesday</span></p>
+                                        <div class="right">
+                                            &gt;
+                                        </div>
+                                        <label for="chem">78%</label>
+                                        
+                                        <progress id="chem" value="78" max="100"></progress>
+                                        
+                                    </div>
+                                    
+                                    <div class="card">
+                                        <p><b>Philosophy</b><br /><span>September, 8 Tuesday</span></p>
+                                        <div class="right">
+                                            &gt;
+                                        </div>
+                                        <label for="phi">44%</label>
+                                        
+                                        <progress id="phi" value="44" max="100"></progress>
+                                        
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        
+                        <td>
+                            <div class="skill">
+                               <h2>Skills</h2>
+                                <div id="chartdiv"></div>
+                            </div>
+                        </td>
+                        
+                        <td>
+                            <div class="task">
+                                <h2>Tasks</h2>
+                                <div class="contents">
+                                    <input type="checkbox" id="task1">
+                                    
+                                    <label for="task1"><span class="sub">Concise history of Jend, Soedirman</span>
+                                        <br />&emsp;<span class="due">Due on 4:30 PM, 3 June 2021</span>
+                                    </label>
+                                    
+                                    <span class="subject">History</span>
+                                    
+                                    <p class="teacher"><img src="icons/woman.jpg" height="50px"> Mrs. Shakeera</p>
+                                    
+                                    <hr />
+                                    
+                                    <input type="checkbox" id="task2">
+                                    
+                                    <label for="task2"><span class="sub">Make 3 carricature on paper</span>
+                                        <br />&emsp;<span class="due">Due on 2:40 PM, 15 June 2021</span>
+                                    </label>
+                                    
+                                    <span class="subject">Art</span>
+                                    
+                                    <p class="teacher"><img src="icons/man.jpg" height="50px"> Mr. Robert Sergio</p>
+                                    <hr />
+            
+                                    <p id="btn">
+                                        <button>See All Tasks</button>
+                                    </p>
+                                </div>
+                            </div>
+                        </td>
+                        
+                        <td>
+                            <div class="goal">
+                                <div class="head">
+                                    <h2>Goals</h2>
+                                    
+                                    <select>
+                                        <option name="Weekly" selected>Weekly</option>
+                                        <option name="Monthly">Monthly</option>
+                                        <option name="Yearly">Yearly</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="body">
+                                   
+                                    <div class="progress">
+                                        <div class="box">
+                                            <div class="percent">
+                                                <svg>
+                                                    <circle cx="70" cy="70" r="70"></circle>
+                                                    <circle cx="70" cy="70" r="70"></circle>
+                                                </svg>
+                                                <div class="number">
+                                                    <h2>75<span>%</span></h2>
+                                                </div>
+                                            </div>
+                                            <h2 class="text"><span id="complete">Completed</span></h2>
+                                            <h2 class="text"><span id="uncomplete">Uncompleted</span></h2>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                
+            </div>
+
+        </div>
+
+    </body>
+</html>

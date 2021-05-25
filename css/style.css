@@ -1,0 +1,733 @@
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('../font/poppins-v15-latin-regular.eot');
+  src: local(''),
+       url('../font/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'), 
+       url('../font/poppins-v15-latin-regular.woff2') format('woff2'), 
+       url('../font/poppins-v15-latin-regular.woff') format('woff'),
+       url('../font/poppins-v15-latin-regular.ttf') format('truetype'), 
+       url('../font/poppins-v15-latin-regular.svg#Poppins') format('svg'); 
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    cursor: default;
+}
+
+a{
+    text-decoration: none;
+}
+
+#head ul{
+    list-style: none;
+    display: flex;
+    float: right;
+    text-align: center;
+}
+
+#head li{
+    padding: 10px;
+}
+
+#head img{
+    height: 100px;
+}
+
+#head ul li{
+    padding: 0px 30px 0px 0px;
+}
+
+#head ul img{
+    height: 30px;
+    cursor: pointer;
+}
+
+#head input{
+    display: none;
+}
+
+#user{
+    cursor: pointer;
+}
+
+.image:hover{
+    border-bottom: 5px solid deepskyblue;
+    border-radius: 5px;
+}
+
+#user:hover{
+    border-bottom: 5px solid deepskyblue;
+    border-radius: 5px;
+}
+
+.nav{
+    width: 5%;
+    overflow: hidden;
+    padding: 20px 0px 0px 0px;
+}
+
+.nav a{
+    text-decoration: none;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+}
+
+.nav img{
+    height: 22px;
+    cursor: pointer;
+}
+
+.nav a:hover{
+    border-left: 5px solid deepskyblue;
+    border-radius: 5px;
+}
+
+.subnav{
+    position: absolute;
+    overflow: hidden;
+    display: none;
+    width: 200px;
+    left: 60px;
+    margin-top: -70px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+}
+
+#check{
+    display: none;
+}
+
+#check:checked ~ .subnav{
+    display: block;
+    z-index: 1;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.subnav a{
+    cursor: pointer;
+}
+
+.col_1{
+    display: block;
+}
+
+.ad{
+    margin: 10px;
+    margin-top: 70px;
+    width: 160px;
+}
+
+.col_1 .adcard{
+    font-size: 10px;
+    color: white;
+    background-color: orange;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+
+.adcard img{
+    height: 11px;
+}
+
+.link{
+    padding: 10px 0px 0px 0px;
+}
+
+.col_2 .container_1 h1{
+    position: absolute;
+    top: 0;
+    left: 12%;
+}
+
+#maintable{
+    position: absolute;
+    top: 10vh;
+    left: 12%;
+    padding: 0px;
+}
+
+#maintable tr td{
+    padding: 10px 30px 10px 10px;
+    background-color: #F4F4F4;
+    border-radius: 30px;
+}
+
+.container_1{
+    width: 350px;
+    float: left;
+    margin-left: 10%;
+    margin-top: -40vh;
+}
+
+#maintable .card{
+    display: block;
+    width: 350px;
+}
+
+#maintable .content{
+    display: flex;
+    background-color: #96E8E8;
+    border-radius: 10px;
+    padding: 0;
+}
+
+#maintable .content p{
+    padding: 0px 0px 0px 30px;
+}
+
+#maintable .content span{
+    color: #555555;
+}
+
+.invite{
+    margin-top: 70px;
+    padding: 30px 0px 0px 0px;
+    width: 130px;
+    padding: 20px;
+    text-align: center;
+}
+
+.invite img{
+    width: 150px;
+    height: 150px;
+}
+
+.invite button{
+    font-size: 16px;
+    background-color: orangered;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.container_3{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+
+.container_2{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+
+#subtable_1{
+    width: 100%;
+}
+
+#subtable_1 tr td img{
+    width: 10px;
+    height: 10px;
+}
+
+.green{
+    transform: rotate(180deg);
+}
+
+.red{
+    transform: rotate(270deg);
+}
+
+.center{
+    text-align: center;
+}
+
+#subtable_2{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+
+#subtable_1 tr th{
+    background-color: #E9E9E9;
+    border-radius: 2px;
+}
+
+.month{
+    width: 100%;
+    background-color: darkgreen;
+    color: white;
+    height: 5vh;
+    border-radius: 5px;
+}
+
+.month h4{
+    padding: 10px 0px 0px 0px;
+}
+
+.month span{
+    cursor: pointer;
+}
+
+.calendar{
+    text-align: center;
+}
+
+.old{
+    color: lightgray;
+}
+
+.prev{
+    text-align: left;
+}
+
+.next{
+    text-align: right;
+}
+
+.active{
+    color: white;
+    border-radius: 5px;
+}
+
+#subtable_2 tr th{
+    background-color: darkgreen;
+    color: white;
+    border-radius: 5px;
+}
+
+#subtable_2 tr td{
+    cursor: pointer;
+}
+
+.spent{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+
+#chart_div{
+    height: 300px;
+}
+
+.course{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+
+.course .all_card{
+    display: flex;
+}
+
+.course .card{
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    max-width: 250px;
+    margin-right: 30px;
+    cursor: pointer;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+}
+
+.course h3 img{
+    cursor: pointer;
+}
+
+.course .con img{
+    border-radius: 10px;
+}
+
+.course .con{
+    display: block;
+    width: 200px;
+}
+
+.course .con .line{
+    display: flex;
+}
+
+.course .con p{
+    margin-top: -3px;
+}
+
+.course .beg{
+    color: green;
+}
+
+.course .line progress{
+    margin-top: 4px;
+}
+
+.course .line label{
+    font-weight: bold;
+}
+
+.course .line label span{
+    color: grey;
+}
+
+.course .adv{
+    color: red;
+}
+
+.course .heading{
+    display: flex;
+}
+
+.course .heading .details{
+    position: relative;
+    left: 400px;
+}
+
+.course .heading .details img{
+    cursor: pointer;
+    padding: 0px 10px;
+}
+
+.homework{
+    background-color: white;
+    padding: 30px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+
+.homework h2{
+    color: #17433A;
+}
+
+.homework .all_card{
+    max-height: 280px;
+    Overflow-y:scroll;
+}
+
+.homework .all_card .card{
+    background-color: #17433A;
+    padding: 10px 0px 20px 20px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: white;
+}
+
+.homework .all_card .card span{
+    color: #CACACA;
+}
+
+.homework .all_card .card .right{
+    float: right;
+    font-size: 30px;
+    margin-top: -40px;
+    margin-right: 20px;
+}
+
+.homework .all_card .card label{
+    font-weight: bold;
+}
+
+#chartdiv {
+  width: 100%;
+  height: 300px;
+}
+
+.skill{
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+    border-radius: 30px;
+}
+
+.task .contents{
+    padding: 20px;
+}
+
+.task .contents label{
+    cursor: pointer;
+}
+
+.task .contents .sub{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.task .contents .due{
+    color: grey;
+}
+
+.task .contents .subject{
+    float: right;
+    position: relative;
+    top: -30px;
+    background-color: greenyellow;
+    padding: 8px;
+    border-radius: 20px;
+    width: 70px;
+    text-align: center;
+}
+
+.task .contents .teacher{
+    font-weight: bold;
+    
+}
+
+.task .contents .teacher img{
+    border-radius: 50px;
+}
+
+.task .contents #btn{
+    text-align: center;
+}
+
+.task .contents p button{
+    font-size: 20px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.task{
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+}
+
+.goal .head{
+    display: block;
+}
+
+.goal .head select{
+    float: right;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    color: #17433a;
+    border: none; 
+}
+
+.goal{
+    background-color: white;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+    border-radius: 30px;
+    padding: 30px;
+}
+
+.goal .body .box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.goal .body .box .percent{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.goal .body .box .percent svg{
+    position: relative;
+    width: 150px;
+    height: 150px;
+}
+
+.goal .body .box .percent svg circle{
+    width: 150px;
+    height: 150px;
+    fill: none;
+    stroke-width: 10;
+    stroke: #000;
+    transform: translate(5px, 5px);
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
+    stroke-linecap: round;
+}
+
+.goal .body .box .percent svg circle:nth-child(1){
+    stroke-dashoffset: 0;
+    stroke: #a3a3a3;
+}
+
+.goal .body .box .percent svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 75) / 100);
+    stroke: #17433a;
+}
+
+.goal .body .box .percent .number{
+    position: relative;
+    top: -150px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111;
+}
+
+.goal .body .box .percent .number h2{
+    font-size: 48px;
+}
+
+.goal .body .box .percent .number h2 span{
+    font-size: 24px;
+}
+
+.goal .body .box .text{
+    padding: 10px 0px 0px;
+    color: #999;
+    font-weight: 
+}
+
+.goal .body .box .text #complete{
+    background-color: #17433a;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.goal .body .box .text #uncomplete{
+    background-color: #a3a3a3;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+}
+
+.notification{
+    background-color: white;
+    height: 82vh;
+    width: 700px;
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    display: none;
+    padding: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+}
+
+.notification .close{
+    float: right;
+}
+
+#noti:checked ~ .notification{
+    display: block;
+}
+
+.notification .headline{
+    display: flex;
+}
+
+.notification .headline a{
+    padding: 20px;
+}
+
+.notification .headline a:hover{
+    border-bottom: 5px solid deepskyblue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.message .info{
+    display: flex;
+}
+
+.message .date{
+    color: #555;
+    text-align: left;
+}
+
+.message .info img{
+    margin-right: 20px;
+    height: 500px;
+}
+
+.message .info .image:hover{
+    border: none;
+}
+
+.message .info{
+    padding: 0px 0px 20px 0px;
+}
+
+.notification .button button{
+    padding: 10px;
+    font-size: 20px;
+    width: 90%;
+    border-radius: 20px;
+}
+
+.full_course{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    padding: 100px;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+}
+
+.full_course .container p{
+    font-size: 22px;
+}
+
+.full_course .all_course .box .item{
+    background-color: white;
+    box-shadow: 0 30px 60px rgba(0,0,0,0.2);
+    width: 400px;
+    border-radius: 20px;
+}
+
+.full_course .all_course .box .item .text{
+    padding: 20px;
+}
+
+.full_course .all_course .box .item img{
+    height: 200px;
+    width: 400px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.full_course .all_course .all_box{
+    display: flex;
+}
+
+.full_course .all_course .all_box .box{
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.full_course .all_course .all_box .box .fac{
+    color: grey;
+}
+
+.full_course .all_course .all_box .box .facul{
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+
+.full_course label img{
+    height: 30px;
+    position: absolute;
+    left: 85%;
+    top: 20px;
+    cursor: pointer;
+}
+
+#my_course:checked ~ .all_course{
+    display: block;
+}
+
+#my_course{
+    display: none;
+}
